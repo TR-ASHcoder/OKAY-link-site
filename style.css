@@ -14,6 +14,17 @@
     src: url(fonts/Heyam.ttf)
   }  
 
+ 
+@font-face {
+    font-family: p;
+    src: url(fonts/TF\ Madloud\ DEMO.ttf)
+  }  
+
+  p{
+    font-family: p;
+    font-size: medium;
+  }
+  
   i{
     font-family: main;
   }
