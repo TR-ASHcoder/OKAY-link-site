@@ -1,0 +1,232 @@
+@font-face {
+    font-family: main;
+    src: url(fonts/Meorgine.otf);
+  }
+
+
+@font-face {
+    font-family: h1;
+    src: url(fonts/Romance\ Breakin.ttf)
+  }
+
+@font-face {
+    font-family: button;
+    src: url(fonts/Heyam.ttf)
+  }  
+
+  i{
+    font-family: main;
+  }
+
+  h1{
+    font-family: h1;
+    text-shadow: 1px 0 0 #ffffff, 0 -1px 0 #ffffff, 0 1px 0 #ffffff, -1px 0 0 #000000;
+  }
+
+  button{
+    font-family: button;
+    text-shadow: 1px 0 0 #ffffff, 0 -1px 0 #ffffff, 0 1px 0 #ffffff, -1px 0 0 #ffffff;
+    
+  }
+
+
+
+body{
+    background-color: rgb(171, 255, 87);;
+}
+
+.button1 {
+    height: 70px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #000000ea;
+    cursor: pointer;
+    background-color: #2fc91b;
+    border:#ffffff ;
+    padding: 24px 55px;
+    border-radius: 25px;
+    box-shadow:  3px 2px rgba(0, 0, 0, 0.466);
+  }
+  
+  .button1:hover {background-color: rgb(121, 235, 124)}
+
+
+  .button1:active {
+    background-color: #1b1d0280;
+    box-shadow: 0 0px rgba(0, 0, 0, 0.466);
+    transform: translateY(4px);
+  }
+
+  .button2 {
+    height: 70px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #000000ea;
+    cursor: pointer;
+    background-color: #2fc91b;
+    border:#ffffff ;
+    padding: 24px 55px;
+    border-radius: 25px;
+    box-shadow:  3px 2px rgba(0, 0, 0, 0.466);
+  }
+  
+  .button2:hover {background-color: rgb(121, 235, 124)}
+
+
+  .button2:active {
+    background-color: #1b1d0280;
+    box-shadow: 0 0px rgba(0, 0, 0, 0.466);
+    transform: translateY(4px);
+  }
+
+
+  .button3 {
+    height: 70px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #000000ea;
+    cursor: pointer;
+    background: linear-gradient(45deg,brown, orange );
+    border:#ffffff ;
+    padding: 24px 55px;
+    border-radius: 25px;
+    box-shadow:  3px 2px rgba(0, 0, 0, 0.466);
+  }
+  
+  .button3:hover {background: linear-gradient(45deg,rgb(211, 118, 118), orange );}
+
+
+  .button3:active {
+    background: linear-gradient(45deg,brown, orange );
+    box-shadow: 0 0px rgba(0, 0, 0, 0.466);
+    transform: translateY(4px);
+  }
+
+  
+  .button4 {
+    height: 70px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #000000ea;
+    cursor: pointer;
+    background-color: #2fc91b;
+    border:#ffffff ;
+    padding: 24px 55px;
+    border-radius: 25px;
+    box-shadow:  3px 2px rgba(0, 0, 0, 0.466);
+  }
+  
+  .button4:hover {background-color: rgb(121, 235, 124)}
+
+
+  .button4:active {
+    background-color: #1b1d0280;
+    box-shadow: 0 0px rgba(0, 0, 0, 0.466);
+    transform: translateY(4px);
+  }
+/* button anims */
+  .button1 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button1 span:after {
+    content: '🎥';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button1:hover span {
+    padding-right: 25px;
+  }
+  
+  .button1:hover span:after {
+    opacity: 1;
+    right: 1;
+  }
+
+  .button2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button2 span:after {
+    content: '💻';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button2:hover span {
+    padding-right: 25px;
+  }
+  
+  .button2:hover span:after {
+    opacity: 1;
+    right: 1;
+  }
+
+
+  .button3 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button3 span:after {
+    content: '🥜';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button3:hover span {
+    padding-right: 25px;
+  }
+  
+  .button3:hover span:after {
+    opacity: 1;
+    right: 1;
+  }
+
+
+  .button4 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button4 span:after {
+    content: '😸';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button4:hover span {
+    padding-right: 25px;
+  }
+  
+  .button4:hover span:after {
+    opacity: 1;
+    right: 1;
+  }
