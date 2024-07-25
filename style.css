@@ -45,7 +45,7 @@
 
 
 body{
-    background-color: rgb(171, 255, 87);;
+    background: linear-gradient(4deg,rgb(142, 211, 73), rgb(171, 255, 87), rgb(106, 145, 16));
 }
 
 
