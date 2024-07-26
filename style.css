@@ -20,6 +20,13 @@
     src: url(fonts/TF\ Madloud\ DEMO.ttf)
   }  
 
+
+  .a{
+    font-family: p;
+    color: #000000;
+    text-align: right;
+  }
+
   p{
     font-family: p;
     font-size:large;
