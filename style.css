@@ -74,6 +74,30 @@ body{
   transform: translateY(4px);
 }
 
+.buttonstem {
+  height: 70px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: #000000ea;
+  cursor: pointer;
+  background-color: #2fc91b;
+  border:#ffffff ;
+  padding: 24px 55px;
+  border-radius: 25px;
+  box-shadow:  3px 2px rgba(0, 0, 0, 0.466);
+}
+
+.buttonstem:hover {background-color: rgb(121, 235, 124)}
+
+
+.buttonstem:active {
+  background-color: #1b1d0280;
+  box-shadow: 0 0px rgba(0, 0, 0, 0.466);
+  transform: translateY(4px);
+}
+
+
 
 .button1 {
     height: 70px;
@@ -205,6 +229,37 @@ body{
 
 
 /* button anims */
+
+
+.buttonstem span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttonstem span:after {
+  content: '🎮';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttonstem:hover span {
+  padding-right: 25px;
+}
+
+.buttonstem:hover span:after {
+  opacity: 1;
+  right: 1;
+}
+
+
+
+
+
   .button1 span {
     cursor: pointer;
     display: inline-block;
