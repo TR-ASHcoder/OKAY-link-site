@@ -32,6 +32,22 @@
     text-decoration: none;
   }
 
+  
+  a:visited {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+
+  
+  a:hover {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+
   p{
     font-family: p;
     font-size:large;
