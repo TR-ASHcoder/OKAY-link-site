@@ -21,10 +21,15 @@
   }  
 
 
-  .a{
+  div.athingy{
     font-family: p;
-    color: #000000;
     text-align: right;
+  }
+
+  a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
   }
 
   p{
