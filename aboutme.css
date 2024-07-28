@@ -49,7 +49,7 @@
 
 
   p{
-    font-family: p;
+    font-family: h1;
     font-size:large;
     font-style: italic;
    
@@ -70,9 +70,7 @@
     
   }
 
-html{
-  height: 100%;
-}
+
 
 body{
     background: linear-gradient(4deg,rgb(142, 211, 73), rgb(171, 255, 87), rgb(106, 145, 16));
