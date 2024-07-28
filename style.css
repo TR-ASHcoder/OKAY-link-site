@@ -76,6 +76,28 @@ body{
     background: linear-gradient(4deg,rgb(142, 211, 73), rgb(171, 255, 87), rgb(106, 145, 16));
 }
 
+.buttonro {
+  height: 70px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: #000000ea;
+  cursor: pointer;
+  background-color: #2fc91b;
+  border:#ffffff ;
+  padding: 24px 55px;
+  border-radius: 25px;
+  box-shadow:  3px 2px rgba(0, 0, 0, 0.466);
+}
+
+.buttonro:hover {background-color: rgb(121, 235, 124)}
+
+
+.buttonro:active {
+  background-color: #1b1d0280;
+  box-shadow: 0 0px rgba(0, 0, 0, 0.466);
+  transform: translateY(4px);
+}
 
 
 
@@ -284,7 +306,30 @@ body{
   right: 1;
 }
 
+.buttonro span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
 
+.buttonro span:after {
+  content: '🤖';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttonro:hover span {
+  padding-right: 25px;
+}
+
+.buttonro:hover span:after {
+  opacity: 1;
+  right: 1;
+}
 
 
 
