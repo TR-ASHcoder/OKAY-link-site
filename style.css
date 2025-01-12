@@ -134,14 +134,14 @@ body{
   margin-bottom: 25px;
   color: #000000ea;
   cursor: pointer;
-  background: linear-gradient(45deg,rgb(207, 36, 36), orange, rgb(145, 74, 124));
+  background-color: #2fc91b;
   border:#ffffff ;
   padding: 24px 55px;
   border-radius: 25px;
   box-shadow:  3px 2px rgba(0, 0, 0, 0.466);
 }
 
-.buttoninsta:hover {background: linear-gradient(45deg,rgb(199, 106, 106), rgb(247, 182, 62), rgb(155, 97, 137))}
+.buttoninsta:hover {background-color: rgb(121, 235, 124)}
 
 
 .buttoninsta:active {
