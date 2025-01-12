@@ -539,6 +539,27 @@ body{
     right: 1;
   }
 
+
+  /* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #7bad22; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #a8f953; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #88c942; 
+}
+
   /* 
 
 
