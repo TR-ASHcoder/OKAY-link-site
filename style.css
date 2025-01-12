@@ -95,8 +95,8 @@ body{
 
 
 .buttonrub:active {
-  background-color: #1b1d0280;
-  box-shadow: 0 0px rgba(0, 0, 0, 0.466);
+  background-image: url('imgs/faded.png');
+  box-shadow: 0 0px rgba(0, 0, 0, 0);
   transform: translateY(4px);
 }
 
