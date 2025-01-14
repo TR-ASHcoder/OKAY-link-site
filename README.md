@@ -1,4 +1,3 @@
-the code to my links website, which includes all my stuff and a about me
 # OKAY Link Site
 
 Welcome to the OKAY Link Site repository! This project hosts the code for my personal links website, which includes various resources and an "About Me" section.
