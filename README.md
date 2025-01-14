@@ -28,10 +28,6 @@ To run this project locally, follow these steps:
 
 Contributions are welcome! If you'd like to suggest improvements or report issues, please open an issue in this repository.
 
-## License
-
-This project is open-source and available under the MIT License.
-
 
 -----
 
