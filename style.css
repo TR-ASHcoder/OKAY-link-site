@@ -26,6 +26,11 @@
     text-align: right;
   }
 
+  div.wake{
+    color: #80EB56;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+
   a:link {
     color: green;
     background-color: transparent;
