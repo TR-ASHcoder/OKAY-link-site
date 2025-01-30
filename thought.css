@@ -1,0 +1,14 @@
+@font-face {
+  font-family: p;
+  src: url(fonts/OldCave-Lwv4.otf)
+}  
+
+p{
+  font-family: p;
+}
+
+/*
+body{
+  background-image: url();
+}
+*/
