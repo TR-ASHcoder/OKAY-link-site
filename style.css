@@ -301,10 +301,52 @@ body{
     transform: translateY(4px);
   }
 
+  .buttonspace {
+    height: 70px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #000000ea;
+    cursor: pointer;
+    background-color: #004fd4;
+    border:#ffffff ;
+    padding: 24px 55px;
+    border-radius: 25px;
+    box-shadow:  3px 2px rgba(0, 0, 0, 0.466);
+  }
+  
+  .buttonspace:hover {background-color: #005cfc;}
 
 
+  .buttonspace:active {
+    background-color: #1b1d0280;
+    box-shadow: 0 0px rgba(0, 0, 0, 0.466);
+    transform: translateY(4px);
+  }
 
 
+  .buttondisco {
+    height: 70px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #000000ea;
+    cursor: pointer;
+    background-color: #282b30;
+    border:#ffffff ;
+    padding: 24px 55px;
+    border-radius: 25px;
+    box-shadow:  3px 2px rgba(0, 0, 0, 0.466);
+  }
+  
+  .buttondisco:hover {background-color: #36393e;}
+
+
+  .buttondisco:active {
+    background-color: #1b1d0280;
+    box-shadow: 0 0px rgba(0, 0, 0, 0.466);
+    transform: translateY(4px);
+  }
 
 
 
@@ -313,6 +355,68 @@ body{
 
 
 /* button anims */
+
+.buttondisco span:after {
+  content: '💿';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+
+
+.buttondisco span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+
+.buttondisco:hover span {
+  padding-right: 25px;
+}
+
+.buttondisco:hover span:after {
+  opacity: 1;
+  right: 1;
+}
+
+
+
+
+
+.buttonspace span:after {
+  content: '💬';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+
+
+.buttonspace span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+
+.buttonspace:hover span {
+  padding-right: 25px;
+}
+
+.buttonspace:hover span:after {
+  opacity: 1;
+  right: 1;
+}
+
+
 
 .buttonrub span {
   cursor: pointer;
