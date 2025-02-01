@@ -92,14 +92,14 @@ body{
   margin-bottom: 25px;
   color: #000000ea;
   cursor: pointer;
-  background-image: url('imgs/Capture.PNG');
+  background-image: url('imgs/thoughts/paper2.jpg');
   border:#ffffff ;
   padding: 24px 55px;
   border-radius: 25px;
   box-shadow:  3px 2px rgba(0, 0, 0, 0.466);
 }
 
-.buttonrub:hover {background-image: url(imgs/paper.jpg);}
+.buttonrub:hover {background-image: url(imgs/thoughts/normal.jpg);}
 
 
 .buttonrub:active {
