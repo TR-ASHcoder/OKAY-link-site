@@ -6,6 +6,7 @@
 p{
   font-family: p;
   text-shadow: 1px 0 0 #6b6868, 0 -1px 0 #a09d9d, 0 1px 0 #ffffff, -1px 0 0 #999797;
+
 }
 
 
@@ -13,4 +14,12 @@ body{
   background-image: url(imgs/thoughts/normal.jpg);
 }
 
+* { 
+  cursor: url(imgs/thoughts/ballfixed_.cur), auto; 
+}
+
+ audio{
+  cursor: url('https://cdn.discordapp.com/attachments/889693014866399252/1335060011281547397/papercurser.cur?ex=679ecb06&is=679d7986&hm=0ab1a39bcabab92797549aaf547acdf9368891f792f30b7e7d1d02377e045c28&'), auto;
+
+}
 
