@@ -15,11 +15,11 @@ body{
 }
 
 * { 
-  cursor: url(imgs/thoughts/ballfixed_.cur), auto; 
+  cursor: url(https://cdn.discordapp.com/attachments/889693014866399252/1335065639311638608/ballfixed_.cur?ex=679ed044&is=679d7ec4&hm=9d90d81f02b6d946096dca6c02bd1a821daf5ba0df9f8f98a92704842ace63ce&), auto; 
 }
 
- audio{
-  cursor: url('https://cdn.discordapp.com/attachments/889693014866399252/1335060011281547397/papercurser.cur?ex=679ecb06&is=679d7986&hm=0ab1a39bcabab92797549aaf547acdf9368891f792f30b7e7d1d02377e045c28&'), auto;
+a:hover, audio{
+    cursor: url(https://cdn.discordapp.com/attachments/889693014866399252/1335065639642992753/peprfixed_.cur?ex=679ed044&is=679d7ec4&hm=61472e6635989a57f7f448499386118c378d0b7a6aec7f7c5b712ea4c31571af&), auto;
+
 
 }
-
