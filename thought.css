@@ -11,15 +11,41 @@ p{
 
 
 body{
-  background-image: url(imgs/thoughts/normal.jpg);
+  background-image: url(imgs/thoughts/im\ so\ sorry.gif);
 }
 
 * { 
-  cursor: url(https://cdn.discordapp.com/attachments/889693014866399252/1335065639311638608/ballfixed_.cur?ex=679ed044&is=679d7ec4&hm=9d90d81f02b6d946096dca6c02bd1a821daf5ba0df9f8f98a92704842ace63ce&), auto; 
+  cursor: url(imgs/thoughts/ballfixed_.png), auto; 
 }
 
-a:hover, audio{
-    cursor: url(https://cdn.discordapp.com/attachments/889693014866399252/1335065639642992753/peprfixed_.cur?ex=679ed044&is=679d7ec4&hm=61472e6635989a57f7f448499386118c378d0b7a6aec7f7c5b712ea4c31571af&), auto;
+a:hover, audio, img{
+    cursor: url(imgs/thoughts/peprfixed_.png), auto;
 
 
+}
+
+.image-container {
+  position: relative;
+  width: 599px;
+  height: 410px;
+}
+
+.bg {
+  /* slightly smaller than the overlay so it fits inside the frame */
+  width: 499px;
+  height: 300px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 599px;
+  height: 429px;
+  pointer-events: none; /* lets mouse clicks go through the frame */
 }
