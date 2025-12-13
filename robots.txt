@@ -1,5 +1,3 @@
-#
-
 User-agent: GPTBot
 Disallow: /
 
@@ -8,8 +6,6 @@ Disallow: /
 
 User-agent: ChatGPT-User
 Disallow: /
-
-#
 
 User-agent: anthropic-ai
 Disallow: /
@@ -20,12 +16,8 @@ Disallow: /
 User-agent: claude-web
 Disallow: /
 
-#
-
 User-agent: Google-Extended
 Disallow: /
-
-#
 
 User-agent: PerplexityBot
 Disallow: /
@@ -33,15 +25,11 @@ Disallow: /
 User-agent: Perplexity-User
 Disallow: /
 
-#
-
 User-agent: Meta-ExternalAgent
 Disallow: /
 
 User-agent: Meta-ExternalFetcher
 Disallow: /
-
-#
 
 User-agent: Applebot-Extended
 Disallow: /
