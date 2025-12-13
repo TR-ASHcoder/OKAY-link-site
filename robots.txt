@@ -36,3 +36,5 @@ Disallow: /
 
 User-agent: Applebot
 Disallow: /
+
+okay it works lol
