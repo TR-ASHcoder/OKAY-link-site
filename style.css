@@ -135,6 +135,8 @@ body{
 
 
 
+
+
 .buttoninsta {
   height: 70px;
   font-size: 18px;
@@ -229,6 +231,28 @@ body{
     transform: translateY(4px);
   }
 
+  .buttonH {
+    height: 70px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #000000ea;
+    cursor: pointer;
+    background: linear-gradient(1deg,rgb(226, 195, 148), rgb(228, 183, 116));
+    border:#ffffff ;
+    padding: 24px 55px;
+    border-radius: 25px;
+    box-shadow:  3px 2px rgba(0, 0, 0, 0.466);
+  }
+  
+  .buttonH:hover {background: linear-gradient(1deg,rgb(218, 192, 153), rgb(218, 187, 140));}
+
+
+  .buttonH:active {
+    background: #1b1d0280;
+    box-shadow: 0 0px rgba(0, 0, 0, 0.466);
+    transform: translateY(4px);
+  }
 
   .button3 {
     height: 70px;
@@ -385,7 +409,33 @@ body{
 }
 
 
+.buttonH span:after {
+  content: '🕋';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
 
+
+
+.buttonH span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+
+.buttonH:hover span {
+  padding-right: 25px;
+}
+
+.buttonH:hover span:after {
+  opacity: 1;
+  right: 1;
+}
 
 
 .buttonspace span:after {
